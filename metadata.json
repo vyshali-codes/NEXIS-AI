@@ -1,0 +1,6 @@
+{
+  "name": "NEXIS AI",
+  "description": "Nexis AI is an intelligent conversational assistant that helps users think, create, learn, analyze, plan, and solve problems.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:translateX="31.5"
+        android:translateY="31.5"
+        android:scaleX="0.75"
+        android:scaleY="0.75">
+        
+        <!-- Speech Bubble main shape -->
+        <path
+            android:pathData="M 30,0 A 30,30 0 0,1 60,30 A 30,30 0 0,1 51.2,51.2 Q 54,58 54,63 Q 45,59 38.6,58.7 A 30,30 0 0,1 30,60 A 30,30 0 0,1 0,30 A 30,30 0 0,1 30,0 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="50"
+                    android:startY="-10"
+                    android:endX="10"
+                    android:endY="60">
+                    <item android:color="#FFB2C8" android:offset="0.0" />
+                    <item android:color="#D680EE" android:offset="0.4" />
+                    <item android:color="#838DF7" android:offset="0.75" />
+                    <item android:color="#60BAFF" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Left Blush -->
+        <path
+            android:fillColor="#80FF9CB6"
+            android:pathData="M 12,41 A 5,2.5 0 0,1 22,41 A 5,2.5 0 0,1 12,41 Z" />
+
+        <!-- Right Blush -->
+        <path
+            android:fillColor="#80FF9CB6"
+            android:pathData="M 38,41 A 5,2.5 0 0,1 48,41 A 5,2.5 0 0,1 38,41 Z" />
+
+        <!-- Left Eye (Dark Navy) -->
+        <path
+            android:fillColor="#222336"
+            android:pathData="M 18,29 A 3,3 0 0,1 24,29 L 24,34 A 3,3 0 0,1 18,34 Z" />
+
+        <!-- Right Eye (Dark Navy) -->
+        <path
+            android:fillColor="#222336"
+            android:pathData="M 36,29 A 3,3 0 0,1 42,29 L 42,34 A 3,3 0 0,1 36,34 Z" />
+
+        <!-- Smile -->
+        <path
+            android:pathData="M 27,40 Q 30,44 33,40"
+            android:strokeColor="#222336"
+            android:strokeWidth="2.5"
+            android:strokeLineCap="round"/>
+
+        <!-- Sparkle Star -->
+        <path
+            android:pathData="M 58,-6 Q 59,-1 64,0 Q 59,1 58,6 Q 57,1 52,0 Q 57,-1 58,-6 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="52"
+                    android:startY="6"
+                    android:endX="64"
+                    android:endY="-6">
+                    <item android:color="#9884F9" android:offset="0.0" />
+                    <item android:color="#FFA6D5" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+    </group>
+</vector>

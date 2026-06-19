@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "194280401519",
+    "project_id": "nexis-ai-6b1b3",
+    "storage_bucket": "nexis-ai-6b1b3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194280401519:android:2fed98a7007bf1b418bb9a",
+        "android_client_info": {
+          "package_name": "com.aistudio.chatbot.xkwvyb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194280401519-aoukcrcpt1puhh1017tfp71ihcovna9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoB3micWyEgsjWu3k87xjbvEJhKHuqO9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194280401519-aoukcrcpt1puhh1017tfp71ihcovna9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
